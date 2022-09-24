@@ -20,7 +20,7 @@ public class CipherText {
 	//main  method 
 	//here we input the text and take the expected output
 	public static void main(String[] args) {
-
+		//TAKE INPUT FROM USER
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter Input Text ");
 		String text = scanner.nextLine();
