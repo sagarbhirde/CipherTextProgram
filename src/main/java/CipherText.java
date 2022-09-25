@@ -8,7 +8,7 @@ public class CipherText {
 	//main login implemented in this method 
 	public static StringBuffer encrypt(String text) {
 
-		StringBuffer result = new StringBuffer();
+		StringBuffer result = new StringBuffer(); 
 
 		for (int i = 0; i < text.length(); i++) {
 				char ch = (char) (((int) text.charAt(i) + 3 - 97) % 26 + 97);
